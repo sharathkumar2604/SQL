@@ -4,6 +4,8 @@ create table distict(id_slno int not null unique , distict_name varchar(20) uniq
 select* from distict;
 create table taluk(id_slno int not null,taluk_name varchar(30),no_of_hobli int, taluk_tashildhar varchar(20),taluk_emergency_contact int,famous_temple varchar(20),no_of_hospital int,gram_panchayat_director varchar(20),no_of_people int);
 select* from taluk;
+
+
 insert into distict values(1,'banglore',4,'D k Ravi','manjappa',093004303,3,4,111111);
 insert into distict values(2,'hubli',3,'Rakeesh','manoj',093004232,2,3,2222222);
 insert into distict values(3,'mysore',4,'sharath','mahesh',0930023203,2,1,3333333);
